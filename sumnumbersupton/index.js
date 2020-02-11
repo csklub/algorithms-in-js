@@ -4,16 +4,10 @@
  */
 
 const firstApproach = require("./firstapproach");
-const secondApproach = require("./secondapproach")
+const secondApproach = require("./secondapproach") // -> much faster
 
-// first approach results
-console.log(firstApproach(6));
-console.log(firstApproach(3));
-console.log(firstApproach(100));
-console.log(firstApproach(1000000));
-
-// second approach -> much faster
-console.log(secondApproach(6));
-console.log(secondApproach(3));
-console.log(secondApproach(100));
-console.log(secondApproach(1000000));
+// export as constants
+exports = module.exports = {
+    firstApproach,
+    secondApproach
+}
