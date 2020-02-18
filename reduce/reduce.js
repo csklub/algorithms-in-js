@@ -37,6 +37,9 @@ const peopleInCommunity = [
  *  Read more on: 
  *  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
  */
+/**
+ * write this as a function before writing testing
+ */
 const totalAgeValue = peopleInCommunity.reduce(
     // Destructure age and noOfPeople from peopleInCommunity array
     (accumulator, { age, noOfPeople }) =>
@@ -44,5 +47,4 @@ const totalAgeValue = peopleInCommunity.reduce(
         accumulator + (age * noOfPeople)
     , 0)
 
-// Log value of total age manipulations
-console.log('Average age: ', totalAgeValue)
+exports = module.exports = totalAgeValue;
