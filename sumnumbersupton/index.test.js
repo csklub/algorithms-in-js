@@ -1,5 +1,5 @@
 const { assert, expect } = require("chai");
-const { firstApproach, secondApproach } = require("../sumnumbersupton");
+const { firstApproach, secondApproach } = require(".");
 
 describe("sum of numbers upto n", () => {
     it("should test first approach to be mathematically true", () => {

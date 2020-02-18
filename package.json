@@ -4,7 +4,7 @@
   "description": "Algorithms in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text mocha --exit"
+    "test": "nyc --reporter=lcov --reporter=text mocha **/*.test.js --exit"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "chai": "^4.2.0",
     "mocha": "^7.0.1",
     "nyc": "^15.0.0"
+  },
+  "nyc": {
+    "exclude": "**/*.test.js"
   }
 }
