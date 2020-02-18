@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kemboijs/algorithms-in-js.svg?branch=master)](https://travis-ci.org/kemboijs/algorithms-in-js)
 [![Coverage Status](https://coveralls.io/repos/github/kemboijs/algorithms-in-js/badge.svg?branch=master)](https://coveralls.io/github/kemboijs/algorithms-in-js?branch=master)
-# Algoritms-in-js
+# Algorithms-in-js
 Need to write more algorithms in javascript? Or help another developer get better in Algorithms, this is your place. 
 
 # How to set up and run
