@@ -14,4 +14,4 @@ function moveZeros(arr) {
     return arr;
 }
 
-exports = module.exports = moveZeros;
+module.exports = moveZeros;
