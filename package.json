@@ -4,7 +4,8 @@
   "description": "Algorithms in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text mocha **/*.test.js --exit"
+    "test": "nyc --reporter=lcov --reporter=text mocha **/*.test.js --exit",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
