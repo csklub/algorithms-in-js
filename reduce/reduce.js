@@ -47,4 +47,4 @@ const totalAgeValue = peopleInCommunity.reduce(
         accumulator + (age * noOfPeople)
     , 0)
 
-exports = module.exports = totalAgeValue;
+module.exports = totalAgeValue;

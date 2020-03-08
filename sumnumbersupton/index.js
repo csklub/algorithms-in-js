@@ -7,7 +7,7 @@ const firstApproach = require("./firstapproach");
 const secondApproach = require("./secondapproach") // -> much faster
 
 // export as constants
-exports = module.exports = {
+module.exports = {
     firstApproach,
     secondApproach
 }

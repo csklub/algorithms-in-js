@@ -13,4 +13,4 @@ const removeDuplicates = function (nums) {
     return counts;
 };
 
-exports = module.exports = removeDuplicates;
+module.exports = removeDuplicates;

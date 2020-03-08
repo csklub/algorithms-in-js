@@ -21,4 +21,4 @@ const charCountsForOf = (str) => {
     return result;
 };
 
-exports = module.exports = charCountsForOf;
+module.exports = charCountsForOf;

@@ -7,4 +7,4 @@ const firstApproach = (n) => {
     return sum;
 }
 
-exports = module.exports = firstApproach;
+module.exports = firstApproach;
