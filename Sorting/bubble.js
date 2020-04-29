@@ -6,12 +6,13 @@
  * 4. the last one will be to check if all the items are sorted
  */
 const bubbleSort = (arrItems) => {
-  for (let i = 0; i < arrItems.length; i++) {
-    for (let j = 0; j < arrItems.length; j++) {
-      if (arrItems[j] > arrItems[j + 1]) {
-        let temp = arrItems[j];
-        arrItems[j] = arrItems[j + 1];
-        arrItems[j + 1] = temp;
+  let arrLength = arrItems.length;
+
+  for(let i = 0; i < arrLength; i++) {
+    for(let j = i + 1; j < arrLength; j++) {
+      if(arrItems[j] < arrItems[i]) {
+        // es6 swap items
+        [arrItems[i], arrItems[j]] = [arrItems[j], arrItems[i]]
       }
     }
   }
